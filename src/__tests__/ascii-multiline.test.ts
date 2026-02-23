@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from 'bun:test'
 import { renderMermaidAscii } from '../ascii/index.ts'
 
 describe('ASCII multi-line labels', () => {
